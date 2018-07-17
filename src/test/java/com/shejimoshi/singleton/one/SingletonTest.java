@@ -11,6 +11,8 @@ public class SingletonTest {
     private Singleton singletonb=Singleton.newInstance();
    @Test
     public void testSingleton(){
-       assertEquals(singletona,singletonb);
+       //assertEquals(singletona,singletonb);
+       assertSame(singletona,singletonb);
+
    }
 }
