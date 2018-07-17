@@ -1,4 +1,11 @@
 package com.shejimoshi.decoration;
 
-public class TornCake {
+public class TornCake extends Pancake{
+    public TornCake() {
+        desc = "手抓饼";
+    }
+    @Override
+    public double price() {
+        return 4;
+    }
 }
