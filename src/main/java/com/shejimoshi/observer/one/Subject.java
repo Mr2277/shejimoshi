@@ -1,5 +1,8 @@
 package com.shejimoshi.observer.one;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Subject {
     //既然是老大，那就必须要有小弟
     private List<Observer> observer = new ArrayList<Observer>();
