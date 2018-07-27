@@ -16,9 +16,7 @@ public class ConcreteIterator<T>implements Iterator {
     @Override
     public Object next() {
         T obj = null;
-        if(this.hasNext()){
-            obj = this.list.get(cursor++);
-        }
+
         return obj;
     }
 
